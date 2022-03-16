@@ -1,14 +1,10 @@
-import reactDom from "react-dom";
+import MenuInicio from "./Componentes/MenuInicio";
 
 function App(){
     return(
         <>
+        <MenuInicio />
         </>
     )
 }
-//
-//codigo
-//
-
-let root=document.querySelector(".root");
-reactDom.render(<App />,root);
+export default App;
