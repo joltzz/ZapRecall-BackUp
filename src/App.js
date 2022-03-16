@@ -1,9 +1,11 @@
 import MenuInicio from "./Componentes/MenuInicio";
+import AppTela2 from "./AppTela2";
 
 function App(){
     return(
         <>
-        <MenuInicio />
+            <MenuInicio />
+            {/* <AppTela2 /> */}
         </>
     )
 }

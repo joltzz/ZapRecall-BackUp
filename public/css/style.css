@@ -6,18 +6,18 @@
 
 body{
     background-color: #FB6B6B;
+    border: 1px solid #DBDBDB;
     font-family: 'Recursive';
-}
-
-.root{
-    width: 100vw;
     height: 100vh;
 }
 
+.root{
+    display: flex;
+    justify-content: center;
+}
 .logo{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -28,7 +28,7 @@ body{
 }
 
 .inicio{
-    height: 100%;
+    height: 100vh;
     display: flex;
     justify-content:  space-evenly;
     align-items: center;
@@ -55,3 +55,69 @@ body{
     line-height: 14px;
     color: #D70900;
 }
+
+
+/* Tela 2 */
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.header img{
+    width: 26px;
+    height: 30px;
+}
+.header h1{
+    font-family: 'Righteous', cursive;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+
+.opcao{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    width: 90%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7px;
+}
+.card p{
+    font-family: 'Recursive';
+    font-weight: bold;
+    font-size: 12px;
+    color: #333333;
+}
+.card img{
+    width: 13px;
+    height: 15px;
+    color: #333333;
+}
+
+
+.footer{
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 50px;
+    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.05);
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer h2{
+    font-family: 'Recursive';
+    font-size: 12px;
+    font-weight: 400;
+    color: #333333;
+}
+
