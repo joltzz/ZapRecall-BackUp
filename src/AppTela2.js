@@ -6,15 +6,17 @@ import Footer from "./Componentes/Footer";
 function AppTela2(){
     return (
         <>
-            <Header />
-            <Card />
-            <Card />            
-            <Card />            
-            <Card />            
-            <Card />            
-            <Card />            
-            <Card />            
-            <Card />           
+        <div className="perguntas">
+                <Header />
+                <Card />
+                <Card />            
+                <Card />            
+                <Card />            
+                <Card />            
+                <Card />            
+                <Card />            
+                <Card />
+            </div>    
             <Footer />
         </>
     )
