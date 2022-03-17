@@ -8,6 +8,13 @@ function AppTela2(){
         <>
             <Header />
             <Card />
+            <Card />            
+            <Card />            
+            <Card />            
+            <Card />            
+            <Card />            
+            <Card />            
+            <Card />           
             <Footer />
         </>
     )

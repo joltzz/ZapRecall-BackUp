@@ -1,6 +1,6 @@
 function Footer() {
     return (
-        <div class="footer">
+        <div className="footer">
             <h2>0/8 CONCLUÍDOS</h2>
         </div>
     )

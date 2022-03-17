@@ -1,11 +1,13 @@
 import MenuInicio from "./Componentes/MenuInicio";
 import AppTela2 from "./AppTela2";
+import AppTela3 from "./AppTela3";
 
 function App(){
     return(
         <>
-            <MenuInicio />
+            {/* <MenuInicio /> */}
             {/* <AppTela2 /> */}
+            <AppTela3 />
         </>
     )
 }
