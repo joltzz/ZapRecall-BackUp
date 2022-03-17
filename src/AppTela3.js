@@ -8,7 +8,6 @@ function AppTela3() {
     return (
         <>
             <Pergunta />
-            <Card />
             <Footer />
         </>
     )

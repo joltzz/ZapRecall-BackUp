@@ -133,7 +133,8 @@ body{
     height: 80px;
     border-radius: 5px;
     box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);
-    padding: 6px;
+    padding-left: 6px;
+    padding-top: 11px;
     margin-bottom: 13px;
 }
 .pergunta-card p{
@@ -150,3 +151,64 @@ body{
     flex-direction: column;
     align-items: center;
 }
+
+
+    /* Tela 4 */
+
+.caixa-pergunta{
+    display: flex;
+    justify-content: center;
+}
+
+.tela-resposta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.resposta-pergunta{
+    background-color: #FFFFD5;
+    width: 90%;
+    height: 80px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);
+    padding-left: 6px;
+    padding-top: 11px;
+    margin-bottom: 13px;
+}
+.resposta-pergunta h3{
+    font-family: 'Recursive';
+    font-size: 12px;
+    line-height: 14px;
+}
+.botoes-resposta button{
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+    width: 50px;
+    height: 24px;
+}
+.botoes-resposta{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+    padding-right: 6px;
+
+}
+.botoes-resposta p{
+    font-family: 'Recursive';
+    font-size: 7px;
+}
+
+.red{
+    background-color: #D70900;
+}
+.orange{
+    background-color: #FF922E;
+}
+.green{
+    background-color: #2FBE34;
+}
+
+
+
